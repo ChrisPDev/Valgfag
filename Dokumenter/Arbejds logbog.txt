@@ -1,0 +1,130 @@
+/****************************/
+/* *** Dag 1 - 15-02-21 *** */
+   1. Projekt opfinding.
+	Brugte en god del af formiddagen på at udtænke mit projekt.
+	Har også lavet en video hvor dette blev forklaret.
+   2. Opbygning af case.
+	Har skrevet en simpel case til porjektet som måske / måske ikke kan nåes.
+   3. Use case Brief-format.
+	Så blev der skrevet use cases i brief format,
+	der beskriver siderne i appen fra kundens synspunkt.
+   4. Use case Fully dressed-format.
+	Så blev der påbegyndt Fully dressed use case på profil siden.
+
+/* *** Bilag *** */
+   1. 
+
+/****************************/
+/* *** Dag 2 - 16-02-21 *** */
+   1. Use case Fully dressed-format.
+	Så blev der skrevet Fully dressed use cases på både CV siden samt galleri siden.
+   2. Use case diagram
+	Der blev lavet et Use case diagram i draw.IO som både har en export .xml og en .png 
+	fil, .png filen blev tilføjet til Use case filen.
+   3. System sequence diagrams
+	Der blev lavet 3 System sequence diagrammer, en for hver side i appen.
+	Der er også lavet en export .xml og en .png fil, .png filen blev tilføjet til Use
+	case filen.
+   4. Trello bræt
+	Der er oprettet et Trello bræt til projektet.
+	Trello brættet indeholder blandt andet en Backlog med nogle epics,
+	en Sprint backlog med en hel del tasks der er lavet ud fra disse epics i Backlog.
+	Der er samtidig kigget lidt på Burndown chart i Trello værktøjet.
+
+/* *** Bilag *** */
+   1. Link til Trello:	
+	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
+   2. Use case filen
+	Under Kortet Xamarin crossplatform applikation i Trello findes filen Use case som,
+	beskriver forløbet til nu.
+
+/****************************/
+/* *** Dag 3 - 17-02-21 *** */
+   1. Opret og hent git repository.
+	Der er nu blevet oprettet et git repository med 3 brances ud fra main.
+	En branch per side i appen.
+	Der er mange måder at gøre det på, men det er den jeg har valgt.
+   2. Opret Xamarin forms projekt.
+	Der er nu oprettet et Xamarin forms projekt.
+   3. Prioritering af Sprint backlog tasks.
+	Sprint backloggen skal prioriteres så jeg kan få lavet de vigtigere ting først.
+	Dette sikre at der er mest muligt at vise til kunden efter hvert sprint.
+   4. Opret virtuelt test device.
+	Der er nu oprettet et virtuelt test device.
+	Nexus 5X Q 10.0 - API 29.
+   5. Trello tasks.
+	Der er påbegyndt tasks fra trello brættet på profilside branch i projektet.
+   6. Trello tasts fortsat.
+	Der er klaret 3 tasks på profil siden, men det har ikke været uden problemer,
+	både i hjemmet såvel som i koden.
+   7. Github.
+	Fjerne de 3 brances jeg fik lavet tidligere på dagen.
+
+/* *** Problemer *** */
+   1. Jeg havde problemer med signaturen på projektet og projektets asset navne
+	Løsningen var at lave et projekt med kortere projektnavn samt bruge nogle andre asset extentions.
+   2. Jeg havde problemer med scroll i et editor element, den vil ikke scroll i android men er tilsyneladende standard i IOS.
+	Løsningen var at jonglere rundt mere flere views til det passede.
+	Dog blev det ikke helt som ønsket fra starten af.
+   3. Der er opstået problemer med Git.
+	Løsningen var at slette de 3 branches jeg fik lavet og så køre på main branchen desværre.
+
+/* *** Laves i morgen *** */
+   1. Jeg skal have klaret flere tasks på trello brættet.
+	Jeg vil se om jeg ikke kan nå at komme til det punkt at gøre inputs persistente.
+
+/* *** Kom jeg i mål for dagen *** */
+   1. Jeg syntes ikke jeg kom helt i mål for dagen.
+	Der har været nogle komplikationer i løbet af dagen der har gjort det svært at arbejde.
+	Det retter jeg op på fra i morgen.
+
+/* *** Bilag *** */
+   1. Link til git clone:
+	https://github.com/ChrisPDev/ValgfagsProjekt.git
+   2. Link til Trello:	
+	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
+   3. 
+
+/****************************/
+/* *** Dag 4 - 18-02-21 *** */
+   1. Undersøg hvordan carrouselpage fungere
+	Skal bruge dette til min app da jeg ønsker swipe navigation.
+	Det er lidt for omfattende i forhold til tidsrammen desværre.
+	Der bliver kigget mere ind til det senere.
+   2. Navigation til appens sider.
+	Der bliver lavet en navigationsbar i appen som gør det let at navigere rundt.
+	Denne navigations bar er kun midlertidig.
+   3. Opretter projekt påny.
+	Skal bruge et mindre simpelt namespace i hele projektet.
+	Namespace App er ikke smart at bruge åbenbart.
+   4. Projektet er nu oprettet.
+	Projektet er oprettet og kopieret over.
+   5. Github.
+	Projektet skal nu ligges op på git påny.
+   6. 
+
+/* *** Problemer *** */
+   1. Carrouselpage tager alt for meget tid at undersøge.
+	Har brugt snart en time og er ikke blevet klogere.
+	Løsningen for nu er at lave navigations knapper indtil der er bedre tid.
+   2. Namespace errors.
+	Kan ikke lave navigation i appen hvis namespacet hedder App.
+	Den tager det som en class der eksistere i stedet.
+	Løsningen er at oprette projektet forfra og copy paste.
+
+/* *** Laves i morgen *** */
+
+/* *** Kom jeg i mål for dagen *** */
+
+/* *** Bilag *** */
+   1. Link til git clone:
+	https://github.com/ChrisPDev/ValgfagsProjekt.git
+   2. Link til Trello:	
+	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
+   3. 
+
+/****************************/
+/* *** Dag 5 - 19-02-21 *** */
+
+/* *** Bilag *** */
+   1. 

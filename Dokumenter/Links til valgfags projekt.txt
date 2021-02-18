@@ -1,0 +1,4 @@
+Trello url:	https://trello.com/c/MUTwi1vs/2-profil-side
+Trello public:	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
+Git url:	https://github.com/ChrisPDev/ValgfagsProjekt/tree/main
+Git clone:	https://github.com/ChrisPDev/ValgfagsProjekt.git

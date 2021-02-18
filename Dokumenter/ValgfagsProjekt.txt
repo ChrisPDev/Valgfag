@@ -1,0 +1,34 @@
+/******************************/
+/* *** Fag *** */
+1. IT Kravspecifikation
+   - Kunde ønsker.
+   - Use cases. (Fully dressed)
+   - Diagrammer.
+2. Scrum
+   - Planlægning. (Trello)
+   - Arbejde i potential shippable bidder
+3. App programmering 1 & 2
+   - Xamarin app. (Primært android)
+   - Tanken er single page.
+4. Git
+   - Skift mellem arbejdsstationer. (I hjemmet)
+   - For at kunne simulerer at jeg er flere personer i SCRUM.
+
+/******************************/
+/* *** Projekt case *** */
+Projektet skal ende ud i en portfolio app for kunden.
+Portfolio appen skal kunne gøre forskellige ting.
+ - Præsentation af kunden.
+ - Vise et galleri af billeder.
+
+/******************************/
+/* *** Mål med projekt *** */
+Målet med projektet er at se processen fra kunde til produkt.
+Målet er ikke at kunne nå at færdiggøre appen færdig.
+
+/******************************/
+/* *** Projekt dele *** */
+Det skal ende ud i 3 dele:
+Kundens ønsker. (Fag 1 & 2)
+Planlægning af projektet. (Fag 2)
+Programmering af app. (Fag 2 & 3 & 4)
