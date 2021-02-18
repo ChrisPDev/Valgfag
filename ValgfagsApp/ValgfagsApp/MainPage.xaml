@@ -64,54 +64,56 @@
         </Frame>
 
         <Frame>
-            <StackLayout
-            Spacing="0" >
+            <ScrollView>
+                <StackLayout>
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
 
-                <ScrollView>
-                    <Editor 
-                    x:Name="ProfilText"
-                    AutoSize="TextChanges"
-                    Placeholder="Skriv en profil tekst" />
+                            <Label Text="Profil tekst" />
 
-                </ScrollView>
-            </StackLayout>
-        </Frame>
+                            <Editor 
+                                x:Name="ProfilText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv en profil tekst" />
 
-        <Frame>
-            <StackLayout
-            Spacing="0" >
+                        </StackLayout>
+                    </Frame>
 
-                <ScrollView>
-                    <StackLayout
-                    Spacing="0" >
+                    <Frame>
+                        <StackLayout
+                                Spacing="0" >
 
-                        <Entry 
-                        x:Name="FullName" 
-                        Placeholder="Fulde navn" />
+                            <Label Text="Kontakt oplysninger" />
 
-                        <Entry 
-                        x:Name="Phone" 
-                        Placeholder="Telefon" />
+                            <Entry 
+                                    x:Name="FullName" 
+                                    Placeholder="Fulde navn" />
 
-                        <Entry 
-                        x:Name="Mail" 
-                        Placeholder="E-mail" />
+                            <Entry 
+                                    x:Name="Phone" 
+                                    Placeholder="Telefon" />
 
-                        <Entry 
-                        x:Name="Address" 
-                        Placeholder="Adresse" />
+                            <Entry 
+                                    x:Name="Mail" 
+                                    Placeholder="E-mail" />
 
-                        <Entry 
-                        x:Name="City" 
-                        Placeholder="By" />
+                            <Entry 
+                                    x:Name="Address" 
+                                    Placeholder="Adresse" />
 
-                        <Entry 
-                        x:Name="Zip" 
-                        Placeholder="Postnummer" />
+                            <Entry 
+                                    x:Name="City" 
+                                    Placeholder="By" />
 
-                    </StackLayout>
-                </ScrollView>
-            </StackLayout>
+                            <Entry 
+                                    x:Name="Zip" 
+                                    Placeholder="Postnummer" />
+
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
         </Frame>
     </StackLayout>
 </ContentPage>

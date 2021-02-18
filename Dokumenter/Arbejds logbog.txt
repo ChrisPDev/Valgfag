@@ -104,7 +104,10 @@
    6. Projekt opstart.
 	Projektet skal genskabes efter stort uheld i git.
 	Arbjeder på at få det op at køre igen.
-   7. 
+	Der er nu lavet en recovery på mit arbejde.
+   7. Trello tasks.
+	Tid til at lave mit dagsmål.
+	Der skal laves layout på både cv siden og galleri siden.
 
 /* *** Problemer *** */
    1. Carrouselpage tager alt for meget tid at undersøge.

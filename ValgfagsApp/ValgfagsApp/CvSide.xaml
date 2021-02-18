@@ -3,42 +3,119 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValgfagsApp.CvSide">
     <ContentPage.Content>
-        <Frame>
-            <StackLayout 
-                Spacing="0"
-                Orientation="Horizontal" 
-                HorizontalOptions="FillAndExpand" >
-                <Button 
-                    x:Name="ProfilNav" 
-                    Text="Profil" 
-                    Clicked="ProfilNav_Clicked" 
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+        <StackLayout>
+            <Frame>
+                <StackLayout 
+                    Spacing="0"
+                    Orientation="Horizontal" 
+                    HorizontalOptions="FillAndExpand" >
 
-                <Button 
-                    x:Name="CVNav" 
-                    Text="CV" 
-                    Clicked="CVNav_Clicked" 
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+                    <Button 
+                        x:Name="ProfilNav" 
+                        Text="Profil" 
+                        Clicked="ProfilNav_Clicked" 
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
 
-                <Button 
-                    x:Name="GalleriNav" 
-                    Text="Galleri" 
-                    Clicked="GalleriNav_Clicked"
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+                    <Button 
+                        x:Name="CVNav" 
+                        Text="CV" 
+                        Clicked="CVNav_Clicked" 
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
 
-            </StackLayout>
-        </Frame>
+                    <Button 
+                        x:Name="GalleriNav" 
+                        Text="Galleri" 
+                        Clicked="GalleriNav_Clicked"
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
+
+                </StackLayout>
+            </Frame>
+
+            <ScrollView>
+                <StackLayout>
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
+
+                            <Label Text="Uddannelse" />
+
+                            <Editor 
+                                x:Name="UddannelseText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv om uddannelse." />
+                            
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
+
+                            <Label Text="Tidligere jobs" />
+                            
+                            <Editor 
+                                x:Name="TidligereJobsText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv om tidligere jobs." />
+                            
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
+
+                            <Label Text="Faglige styrker" />
+                            
+                            <Editor 
+                                x:Name="StyrkerText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv om faglige styrker." />
+                            
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
+
+                            <Label Text="Interesse områder" />
+                            
+                            <Editor 
+                                x:Name="InteresserText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv om faglige interesse områder." />
+                            
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame>
+                        <StackLayout
+                            Spacing="0" >
+
+                            <Label Text="Generelt" />
+                            
+                            <Editor 
+                                x:Name="GenereltText"
+                                AutoSize="TextChanges"
+                                Placeholder="Skriv generelle oplysninger." />
+                                
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
