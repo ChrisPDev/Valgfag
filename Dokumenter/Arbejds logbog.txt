@@ -101,7 +101,10 @@
 	Projektet er oprettet og kopieret over.
    5. Github.
 	Projektet skal nu ligges op på git påny.
-   6. 
+   6. Projekt opstart.
+	Projektet skal genskabes efter stort uheld i git.
+	Arbjeder på at få det op at køre igen.
+   7. 
 
 /* *** Problemer *** */
    1. Carrouselpage tager alt for meget tid at undersøge.
@@ -111,6 +114,11 @@
 	Kan ikke lave navigation i appen hvis namespacet hedder App.
 	Den tager det som en class der eksistere i stedet.
 	Løsningen er at oprette projektet forfra og copy paste.
+   3. Mistet projekt filer på git.
+	Jeg har siddet og goofet for meget rundt i git,
+	Med det resultat jeg har mistet mine projekt filer både lokalt og på git.
+	Godt jeg som sådan ikke havde lavet noget stort indhug i projektet.
+	Løsningen er at starte projektet forfra i Trello.
 
 /* *** Laves i morgen *** */
 

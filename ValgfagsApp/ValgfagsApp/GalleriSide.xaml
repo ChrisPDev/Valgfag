@@ -3,10 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValgfagsApp.GalleriSide">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Frame>
+            <StackLayout 
+                Spacing="0"
+                Orientation="Horizontal" 
+                HorizontalOptions="FillAndExpand" >
+                <Button 
+                    x:Name="ProfilNav" 
+                    Text="Profil" 
+                    Clicked="ProfilNav_Clicked" 
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+
+                <Button 
+                    x:Name="CVNav" 
+                    Text="CV" 
+                    Clicked="CVNav_Clicked" 
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+
+                <Button 
+                    x:Name="GalleriNav" 
+                    Text="Galleri" 
+                    Clicked="GalleriNav_Clicked"
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+
+            </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

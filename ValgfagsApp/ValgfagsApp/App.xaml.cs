@@ -10,7 +10,8 @@ namespace ValgfagsApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new ValgfagsApp.MainPage());
         }
 
         protected override void OnStart()

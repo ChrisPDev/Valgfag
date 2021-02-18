@@ -14,5 +14,20 @@ namespace ValgfagsApp
         {
             InitializeComponent();
         }
+
+        private async void ProfilNav_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void CVNav_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CvSide());
+        }
+
+        private async void GalleriNav_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new GalleriSide());
+        }
     }
 }

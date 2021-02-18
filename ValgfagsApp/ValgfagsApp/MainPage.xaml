@@ -4,21 +4,114 @@
              x:Class="ValgfagsApp.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+        <Frame>
+            <StackLayout
+                Spacing="0" >
 
+                <Frame>
+                    <Image
+                        x:Name="ProfilImg"
+                        Source="RedRingHood.jpeg"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        Aspect="AspectFit" />
+                    
+                </Frame>
+                
+                <Entry
+                    x:Name="ProfilName"
+                    Placeholder="Profil navn" />
+                
+            </StackLayout>
+        </Frame>
+        
+        <Frame>
+            <StackLayout 
+                Spacing="0"
+                Orientation="Horizontal" 
+                HorizontalOptions="FillAndExpand" >
+                <Button 
+                    x:Name="ProfilNav" 
+                    Text="Profil" 
+                    Clicked="ProfilNav_Clicked" 
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+                
+                <Button 
+                    x:Name="CVNav" 
+                    Text="CV" 
+                    Clicked="CVNav_Clicked" 
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+                
+                <Button 
+                    x:Name="GalleriNav" 
+                    Text="Galleri" 
+                    Clicked="GalleriNav_Clicked"
+                    HorizontalOptions="CenterAndExpand" 
+                    CornerRadius="100" 
+                    HeightRequest="75" 
+                    WidthRequest="75" 
+                    Padding="0" />
+                                
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout
+            Spacing="0" >
+
+                <ScrollView>
+                    <Editor 
+                    x:Name="ProfilText"
+                    AutoSize="TextChanges"
+                    Placeholder="Skriv en profil tekst" />
+
+                </ScrollView>
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout
+            Spacing="0" >
+
+                <ScrollView>
+                    <StackLayout
+                    Spacing="0" >
+
+                        <Entry 
+                        x:Name="FullName" 
+                        Placeholder="Fulde navn" />
+
+                        <Entry 
+                        x:Name="Phone" 
+                        Placeholder="Telefon" />
+
+                        <Entry 
+                        x:Name="Mail" 
+                        Placeholder="E-mail" />
+
+                        <Entry 
+                        x:Name="Address" 
+                        Placeholder="Adresse" />
+
+                        <Entry 
+                        x:Name="City" 
+                        Placeholder="By" />
+
+                        <Entry 
+                        x:Name="Zip" 
+                        Placeholder="Postnummer" />
+
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
 </ContentPage>
