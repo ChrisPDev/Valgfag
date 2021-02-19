@@ -107,7 +107,10 @@
 	Der er nu lavet en recovery på mit arbejde.
    7. Trello tasks.
 	Tid til at lave mit dagsmål.
-	Der skal laves layout på både cv siden og galleri siden.
+	Der skal laves layout på Cv siden.
+   8. Research.
+	Skal finde ud af hvordan jeg kan gøre alle tekstfelterne persistente.
+	Som appen er nu kan man skrive i alle felterne men når man genstarter appen er det hele væk.
 
 /* *** Problemer *** */
    1. Carrouselpage tager alt for meget tid at undersøge.
@@ -122,20 +125,63 @@
 	Med det resultat jeg har mistet mine projekt filer både lokalt og på git.
 	Godt jeg som sådan ikke havde lavet noget stort indhug i projektet.
 	Løsningen er at starte projektet forfra i Trello.
+   4. Appen crasher hårdt når jeg prøver at benytte mig af persistence.
+	Sidder og kigger på Key value pairs i øjeblikket.
+	Link: https://www.c-sharpcorner.com/article/how-to-operate-with-data-persistence-in-xamarin-forms-part-one/
 
 /* *** Laves i morgen *** */
+   1. Persistence
+	Jeg skal se om jeg ikke godt kan få det der persistence til at virke,
+	Ellers er appen ret pointless desværre.
+	Men hey point for forsøget.
 
 /* *** Kom jeg i mål for dagen *** */
+   1. Jeg nåede ikke helt i mål for dagen idag.
+	Jeg har haft en del setbacks som har gjort jeg har haft et langsomt fremskridt.
+	Jeg har dog fået nået at indhente det tabte samt lavet en task i trello.
+   2. Research
+	Jeg er rigtig godt igang med at research persistence i Xamarin forms.
+	Dog skriver alle at det er træls at arbejde med.
+	Jeg har noget der kinda virkede til skidtet crashede og blev stædig.
+	Jeg er sikker på det er noget der kan laves i morgen, men nu må vi se.
 
 /* *** Bilag *** */
    1. Link til git clone:
-	https://github.com/ChrisPDev/ValgfagsProjekt.git
+	https://github.com/ChrisPDev/Valgfag.git
    2. Link til Trello:	
 	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
-   3. 
+   3. Link til Persistence guide / research.
+	https://www.c-sharpcorner.com/article/how-to-operate-with-data-persistence-in-xamarin-forms-part-one/
+   4. 
 
 /****************************/
 /* *** Dag 5 - 19-02-21 *** */
+   1. Research af persistence.
+	Opretter test solution og prøver mig gennem eksemplet før jeg tilføjer noget til projektet.
+	I test solution virker det helt fint.
+   2. Implementation af persistence
+	Jeg implementere persistence på hele profil siden undtagen profil billede.
+	Jeg er nødt til at få andre ting i orden før jeg kan gøre dette.
+   3. Test.
+	Test 1 var en katatrofe.
+	Test 2 var en kæmpe success.
+
+/* *** Problemer *** */
+   1. Første test efter implementering
+	Første test udløste en kædereaktion af program crashes på maskinen.
+	Den skulle tvinges i genstart før der skete noget.
+
+/* *** Laves i morgen *** */
+   1. 
+
+/* *** Kom jeg i mål for dagen *** */
+   1. 
 
 /* *** Bilag *** */
-   1. 
+   1. Link til git clone:
+	https://github.com/ChrisPDev/Valgfag.git
+   2. Link til Trello:	
+	https://trello.com/invite/b/bKQW3DgV/93d21e43bd5e6905f8070f45c31992cf/valgfagsprojekt
+   3. Link til Persistence guide / research.
+	https://www.c-sharpcorner.com/article/how-to-operate-with-data-persistence-in-xamarin-forms-part-one/
+   4. 

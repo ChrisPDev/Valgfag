@@ -10,7 +10,7 @@
 
                 <Frame>
                     <Image
-                        x:Name="ProfilImg"
+                        x:Name="ProfileImg"
                         Source="RedRingHood.jpeg"
                         HeightRequest="100"
                         WidthRequest="100"
@@ -19,8 +19,10 @@
                 </Frame>
                 
                 <Entry
-                    x:Name="ProfilName"
-                    Placeholder="Profil navn" />
+                    x:Name="ProfileName"
+                    Text="{Binding ProfileName}"
+                    Placeholder="Profil navn" 
+                    Completed="OnChange" />
                 
             </StackLayout>
         </Frame>
@@ -30,6 +32,7 @@
                 Spacing="0"
                 Orientation="Horizontal" 
                 HorizontalOptions="FillAndExpand" >
+                
                 <Button 
                     x:Name="ProfilNav" 
                     Text="Profil" 
@@ -73,42 +76,56 @@
                             <Label Text="Profil tekst" />
 
                             <Editor 
-                                x:Name="ProfilText"
+                                x:Name="ProfileText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv en profil tekst" />
+                                Text="{Binding ProfileText}"
+                                Placeholder="Skriv en profil tekst"
+                                Completed="OnChange" />
 
                         </StackLayout>
                     </Frame>
 
                     <Frame>
                         <StackLayout
-                                Spacing="0" >
+                            Spacing="0" >
 
                             <Label Text="Kontakt oplysninger" />
 
-                            <Entry 
-                                    x:Name="FullName" 
-                                    Placeholder="Fulde navn" />
+                            <Entry
+                                x:Name="ProfileFullName" 
+                                Text="{Binding ProfileFullName}"
+                                Placeholder="Fulde navn"
+                                Completed="OnChange" />
 
                             <Entry 
-                                    x:Name="Phone" 
-                                    Placeholder="Telefon" />
+                                x:Name="ProfilePhone" 
+                                Text="{Binding ProfilePhone}"
+                                Placeholder="Telefon"
+                                Completed="OnChange" />
 
                             <Entry 
-                                    x:Name="Mail" 
-                                    Placeholder="E-mail" />
+                                x:Name="ProfileMail" 
+                                Text="{Binding ProfileMail}"
+                                Placeholder="E-mail"
+                                Completed="OnChange" />
 
                             <Entry 
-                                    x:Name="Address" 
-                                    Placeholder="Adresse" />
+                                x:Name="ProfileAddress" 
+                                Text="{Binding ProfileAddress}"
+                                Placeholder="Adresse"
+                                Completed="OnChange" />
 
                             <Entry 
-                                    x:Name="City" 
-                                    Placeholder="By" />
+                                x:Name="ProfileCity" 
+                                Text="{Binding ProfileCity}"
+                                Placeholder="By"
+                                Completed="OnChange" />
 
                             <Entry 
-                                    x:Name="Zip" 
-                                    Placeholder="Postnummer" />
+                                x:Name="ProfileZip" 
+                                Text="{Binding ProfileZip}"
+                                Placeholder="Postnummer"
+                                Completed="OnChange" />
 
                         </StackLayout>
                     </Frame>
