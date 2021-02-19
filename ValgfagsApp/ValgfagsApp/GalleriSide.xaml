@@ -1,44 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ValgfagsApp.GalleriSide">
+             x:Class="ValgfagsApp.GalleriSide"
+             NavigationPage.HasNavigationBar="False"
+             Title="Galleri">
+
     <ContentPage.Content>
-        <Frame>
-            <StackLayout 
-                Spacing="0"
-                Orientation="Horizontal" 
-                HorizontalOptions="FillAndExpand" >
-                <Button 
-                    x:Name="ProfilNav" 
-                    Text="Profil" 
-                    Clicked="ProfilNav_Clicked" 
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+        <StackLayout>
+            <Frame>
+                <StackLayout 
+                    Spacing="0"
+                    Orientation="Horizontal" 
+                    HorizontalOptions="FillAndExpand" >
+                    <Button 
+                        x:Name="ProfilNav" 
+                        Text="Profil" 
+                        Clicked="ProfilNav_Clicked" 
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
 
-                <Button 
-                    x:Name="CVNav" 
-                    Text="CV" 
-                    Clicked="CVNav_Clicked" 
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+                    <Button 
+                        x:Name="CVNav" 
+                        Text="CV" 
+                        Clicked="CVNav_Clicked" 
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
 
-                <Button 
-                    x:Name="GalleriNav" 
-                    Text="Galleri" 
-                    Clicked="GalleriNav_Clicked"
-                    HorizontalOptions="CenterAndExpand" 
-                    CornerRadius="100" 
-                    HeightRequest="75" 
-                    WidthRequest="75" 
-                    Padding="0" />
+                    <Button 
+                        x:Name="GalleriNav" 
+                        Text="Galleri" 
+                        Clicked="GalleriNav_Clicked"
+                        HorizontalOptions="CenterAndExpand" 
+                        CornerRadius="100" 
+                        HeightRequest="75" 
+                        WidthRequest="75" 
+                        Padding="0" />
 
-            </StackLayout>
-        </Frame>
+                </StackLayout>
+            </Frame>
+
+            <Button 
+                x:Name="GetImgFromDeviceBtn" 
+                Text="Hent fra enhed" 
+                Clicked="GetImgFromDeviceBtn_Clicked" />
+            
+            
+
+            <ListView 
+                x:Name="GalleryView" 
+                ItemsSource="{Binding Gallery}" 
+                RowHeight="100" 
+                HasUnevenRows="True" 
+                SelectionMode="None" 
+                SeparatorColor="LightBlue" >
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid 
+                                Padding="10" >
+                                
+                                <Grid.RowDefinitions>
+                                    <RowDefinition 
+                                        Height="Auto" />
+                                    
+                                    <RowDefinition 
+                                        Height="*" />
+                                    
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition 
+                                        Width="Auto" />
+
+                                    <ColumnDefinition 
+                                        Width="*" />
+
+                                </Grid.ColumnDefinitions>
+
+                                <Image 
+                                    Source="{Binding Image}" 
+                                    Grid.RowSpan="2" 
+                                    Aspect="AspectFit" 
+                                    HeightRequest="100" 
+                                    WidthRequest="100" 
+                                    IsAnimationPlaying="True" />
+                                
+                                <Label 
+                                    Text="{Binding Title}" 
+                                    Grid.Column="1" 
+                                    FontSize="Medium" />
+
+                                <Label 
+                                    Text="{Binding Description}" 
+                                    Grid.Row="1" 
+                                    Grid.Column="1" 
+                                    FontSize="Caption" />
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

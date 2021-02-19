@@ -169,6 +169,14 @@
 	Jeg implementere persistence på hele Cv siden.
    5. Test.
 	Alt fungere første gang.
+   6. Er gået i gang med Galleri siden.
+	Har lagt en knap ind som på sigt skal kunne hente billeder fra devicet.
+	Planen er nu at jeg får appen til at lave et slideshow og grid visning af billeder fra appen selv,
+	dette skiftes ud senere når jeg har regnet ud hvordan jeg henter fra devicet.
+   7. Side om side visning.
+	Jeg har valgt at køre det visuelt lidt anderledes.
+	Der er kommet billeder i et list view et efter et med en titel og en caption.
+   8. 
 
 /* *** Problemer *** */
    1. Første test efter implementering

@@ -85,7 +85,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Christoffer.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ValgfagsApp\ValgfagsApp.csproj">
       <Project>{D1C9A855-C418-45EE-B975-071EF615F5AA}</Project>
