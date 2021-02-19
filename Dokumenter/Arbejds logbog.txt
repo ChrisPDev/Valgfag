@@ -165,6 +165,10 @@
    3. Test.
 	Test 1 var en katatrofe.
 	Test 2 var en kæmpe success.
+   4. Implementation af persistence
+	Jeg implementere persistence på hele Cv siden.
+   5. Test.
+	Alt fungere første gang.
 
 /* *** Problemer *** */
    1. Første test efter implementering
@@ -175,7 +179,8 @@
    1. 
 
 /* *** Kom jeg i mål for dagen *** */
-   1. 
+   1. Jeg har nået mit mål med at lave persistence på både Profil og CV siderne.
+	Der mangler kun profil billede på profil siden.
 
 /* *** Bilag *** */
    1. Link til git clone:

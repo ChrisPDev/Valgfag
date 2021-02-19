@@ -54,7 +54,9 @@
                             <Editor 
                                 x:Name="UddannelseText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv om uddannelse." />
+                                Text="{Binding UddannelseText}"
+                                Placeholder="Skriv om uddannelse." 
+                                Completed="OnChange" />
                             
                         </StackLayout>
                     </Frame>
@@ -68,7 +70,9 @@
                             <Editor 
                                 x:Name="TidligereJobsText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv om tidligere jobs." />
+                                Text="{Binding TidligereJobsText}"
+                                Placeholder="Skriv om tidligere jobs." 
+                                Completed="OnChange" />
                             
                         </StackLayout>
                     </Frame>
@@ -82,7 +86,9 @@
                             <Editor 
                                 x:Name="StyrkerText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv om faglige styrker." />
+                                Text="{Binding StyrkerText}"
+                                Placeholder="Skriv om faglige styrker." 
+                                Completed="OnChange" />
                             
                         </StackLayout>
                     </Frame>
@@ -96,7 +102,9 @@
                             <Editor 
                                 x:Name="InteresserText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv om faglige interesse områder." />
+                                Text="{Binding InteresserText}"
+                                Placeholder="Skriv om faglige interesse områder." 
+                                Completed="OnChange" />
                             
                         </StackLayout>
                     </Frame>
@@ -110,7 +118,9 @@
                             <Editor 
                                 x:Name="GenereltText"
                                 AutoSize="TextChanges"
-                                Placeholder="Skriv generelle oplysninger." />
+                                Text="{Binding GenereltText}"
+                                Placeholder="Skriv generelle oplysninger." 
+                                Completed="OnChange" />
                                 
                         </StackLayout>
                     </Frame>
